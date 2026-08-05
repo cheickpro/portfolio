@@ -1,3 +1,4 @@
+import { assetPath } from "@/lib/constants";
 export interface Publication {
   id: number;
   title: string;
@@ -52,7 +53,7 @@ export const publications: Publication[] = [
       "PyTorch",
     ],
 
-    image: "/images/publications/master-thesis.png",
+    image: assetPath("/images/publications/master-thesis.png"),
 
     pdf: "/documents/master-thesis.pdf",
 

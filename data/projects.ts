@@ -1,4 +1,4 @@
-
+import { assetPath } from "@/lib/constants";
 
 export interface Project {
   id: number;
@@ -32,7 +32,7 @@ export const projects: Project[] = [
   description:
     "Comprehensive master's thesis evaluating deep learning models for network intrusion detection using UNSW-NB15 and CIC-IDS2017 datasets.",
 
-  image: "/images/projects/preprocess.svg",
+  image: assetPath("/images/projects/preprocess.svg"),
 
   technologies: [
     "Python",
@@ -66,7 +66,7 @@ export const projects: Project[] = [
   title: "AI Research Portfolio",
   description:
     "A modern academic portfolio developed with Next.js, TypeScript, and Tailwind CSS to showcase research, projects, and publications.",
-  image: "/images/projects/portfolio.png",
+  image: assetPath("/images/projects/portfolio.png") ,
   technologies: [
     "Next.js",
     "TypeScript",
@@ -84,7 +84,7 @@ export const projects: Project[] = [
   title: "CNN-BiLSTM Intrusion Detection Model",
   description:
     "Hybrid deep learning architecture combining CNN and BiLSTM for network intrusion detection.",
-  image: "/images/projects/cnn-bilstm.png",
+  image: assetPath("/images/projects/cnn-bilstm.png") ,
   technologies: [
     "Python",
     "PyTorch",
@@ -100,7 +100,7 @@ export const projects: Project[] = [
   title: "IDS Benchmark Framework",
   description:
     "Framework for evaluating machine learning and deep learning models on multiple intrusion detection datasets.",
-  image: "/images/projects/plot_loss.png",
+  image: assetPath("/images/projects/plot_loss.png"),
   technologies: [
     "Python",
     "Scikit-Learn",

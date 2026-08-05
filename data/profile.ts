@@ -1,4 +1,5 @@
 import { Profile } from "@/types/Profile";
+import { assetPath } from "@/lib/constants";
 
 export const profile: Profile = {
   name: "CHEICK MOHAMED Rachid",
@@ -23,5 +24,5 @@ export const profile: Profile = {
 
   cv: "/cv/Cheick_Mohamed_Rachid_CV.pdf",
 
-  image: "/images/profile/profile.jpg",
+  image: assetPath("/images/profile/profile.jpg"),
 };
